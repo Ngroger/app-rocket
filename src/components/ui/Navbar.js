@@ -3,7 +3,7 @@ import { BsCart2 } from "react-icons/bs";
 
 function Navbar({ data }) {
     return (
-        <div className="w-full bg-[#FFFFFF] p-5 mobile:px-2 tablet:px-12 rounded-bl-[64px] rounded-br-[64px] flex flex-row items-center justify-between">
+        <div className="w-full bg-[#FFFFFF] p-5 mobile:px-2 tablet:px-12 rounded-bl-[64px] rounded-br-[64px] flex flex-row items-center justify-between border-2 border-black">
             <img src={require("../../img/logo.png")} alt="logo"/>
             <div className="border-[#FFA800] border-[1px] p-2 px-4 rounded-xl w-96 mobile:hidden desktop2:block">
                 <input placeholder="Поиск" className="outline-none bg-transparent text-2xl"/>
